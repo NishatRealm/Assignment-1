@@ -173,5 +173,29 @@ body{
     height: 550px;
     padding-top: 50px;
 }
+/* target styles */
+.target-header {
+    width: 1140px;
+    height: 463px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 30px;
+    text-align: center;
+}
 
-
+.target-header h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.target-header p {
+    margin-bottom: 45px;
+} 
+.target-container{
+    width: 1140px;
+    height: 300px;
+    border: 2px solid red;
+}
