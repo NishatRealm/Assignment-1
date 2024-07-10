@@ -17,11 +17,17 @@ body{
     opacity: 0.7;
 
 }
+.text-secondary{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+}
 /* banner-styles */
 .banner-container {
     width: 1440px;
     height: 652px;
-    border: 2px solid red;
+    
     margin: 0 auto;
     margin-top: 100px;
     
@@ -65,3 +71,76 @@ body{
     padding: 21px 24px 21px 24px;
     
 }
+/* why web development styles section */
+.main-header {
+    width: 1140px;
+    height: 1395px;
+    
+    margin: 0 auto;
+    margin-top: 70px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    text-align: center;  
+   
+
+}
+.main-header h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    padding-bottom: 24px;
+    padding-top: 90px;
+}
+.main-header p{
+    margin: 0 47px;
+    margin-bottom:47px ;  
+}
+/* Contents styles */
+.content-1, .content-2, .content-3 {
+    width: 946px;
+    height: 336px;
+    
+    border-radius: 16px;
+    background: linear-gradient(90deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+ .content-1-description, .content-2-description, .content-3-description {
+    max-width: 477px;
+    max-height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 48px;
+} 
+
+.content-1-description h2, .content-2-description h2, .content-3-description h2 {
+    display: inline;
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.content-1-description p, .content-2-description p, .content-3-description p {
+    display: inline;
+    text-align: left;
+    margin: 0px;
+}
+/* same button for all contents */
+.btn-1 {
+    width: 150px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 44px;
+    padding: 10px;
+}
+
+
