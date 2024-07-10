@@ -94,6 +94,9 @@ body{
 .main-header p{
     margin: 0 47px;
     margin-bottom:47px ;  
+    padding-left: 40px;
+    padding-right: 40px;
+
 }
 /* Contents styles */
 .content-1, .content-2, .content-3 {
@@ -128,6 +131,7 @@ body{
     display: inline;
     text-align: left;
     margin: 0px;
+    padding: 0;
 }
 /* same button for all contents */
 .btn-1 {
@@ -141,6 +145,33 @@ body{
     font-weight: 600;
     margin-top: 44px;
     padding: 10px;
+}
+/* inspiaration section starts here */
+.inspiaration {
+    width: 1140px;
+    height: 760px;
+    
+    margin: 0 auto;
+    margin-top: 70px;
+    text-align: center;  
+}
+.inspiaration h3{
+    color: rgb(13, 19, 33);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: 800;
+}
+.inspiaration p{
+    margin-bottom: 70px;
+}
+.video-container {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    width: 1140px;
+    height: 550px;
+    padding-top: 50px;
 }
 
 
