@@ -183,7 +183,7 @@ body{
 .target-header {
     width: 1140px;
     height: 463px;
-    border: 2px solid red;
+    
     margin: 0 auto;
     margin-top: 50px;
     padding-top: 30px;
@@ -203,7 +203,7 @@ body{
 .target-container{
     width: 1140px;
     height: 300px;
-    border: 2px solid red;
+   
     display: flex;
     flex-direction: row;
 }
@@ -260,4 +260,60 @@ body{
 .target-3 p {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.support {
+    max-width: 1140px;
+    min-height: 400px;
+    padding-top: 30px;
+    margin: 0 auto;
+    background-image: url(./assets/handshake.jpg);
+    margin-top: 70px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: overlay;
+    
+}
+.support-container {
+    width: 1044px;
+    height: 186px;
+    text-align: center;
+}
+.support-container h1{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.support-container p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+.support-container input {
+    width: 548px;
+    height: 57px;
+    padding: 19px 20px 19px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+}
+.support-container button{
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 17px 20px 17px 20px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    
 }
