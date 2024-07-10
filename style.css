@@ -23,6 +23,12 @@ body{
     font-size: 24px;
     font-weight: 700;
 }
+.text-learn {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+}
 /* banner-styles */
 .banner-container {
     width: 1440px;
@@ -198,4 +204,60 @@ body{
     width: 1140px;
     height: 300px;
     border: 2px solid red;
+    display: flex;
+
+}
+.target-1 {
+    width: 364px;
+    height: 300px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    text-align: left;
+    padding: 30px;
+}
+.target-1 h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+.target-2 {
+    width: 364px;
+    height: 300px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    text-align: left;
+    padding: 30px;
+    margin-left: 20px;
+    margin-right: 20px; 
+    
+}
+.target-2 h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 20px;
+} 
+.target-3{
+    width: 364px;
+    height: 300px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    text-align: left;
+    padding: 30px;
+   
+}
+.target-3 h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 20px;
+    
+}
+.target-3 p {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
